@@ -1,0 +1,21 @@
+body {
+    background-color: #ffffff;
+}
+    body > div {
+        display: inline-block;
+        width: 800px;
+        margin-left: calc(50% - 400px);
+        background-color: yellow;
+    }
+        img {
+            display: inline-block;
+            width: 50%;
+            float: left;
+            background-color: pink;
+        }
+        div > div {
+            display: inline-block;
+            width: 40%;
+            float: right;
+            background-color: aqua;
+        }

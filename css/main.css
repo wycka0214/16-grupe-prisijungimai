@@ -35,26 +35,40 @@ body {
                 .form-row {
                     display: inline-block;
                     width: 100%;
+                    margin-bottom: 20px;
                 }
                     .main-title {
                         display: inline-block;
                         width: 100%;
                         text-align: center;
                     }
-                    label {
+                    .label {
+                        display: inline-block;
+                        width: 100%;
+                        font-size: 12px;
+                        font-weight: bold;
+                    }
+                        .required {
+                            color: red;
+                        }
+                    .input {
+                        display: inline-block;
+                        width: 100%;
+                        padding: 10px;
+                        padding-left: 50px;
+                    }
+                    .checkbox {
 
                     }
-                    input {
+                    .checkbox-label {
 
                     }
-                    span {
-
-                    }
-                    a {
+                    .forgot-link {
 
                     }
                     .btn {
-                        
+                        display: inline-block;
+                        width: 100%;
                     }
             .form-bottom {
                 display: inline-block;

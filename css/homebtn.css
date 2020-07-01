@@ -1,0 +1,36 @@
+.back-to-home {           
+     position: absolute;
+     top: 3%;
+     right: 2%;
+     color: #2443AC;
+     padding: 2px 2px;
+     background-color: #D5DDF6;
+     line-height: 20px;
+     border-radius: 5px;
+     cursor: pointer;
+     box-shadow: 0 3px 6px #87a0f5;
+     box-sizing: border-box;
+     border: 1px solid #93aaf0c7;
+    }    
+    .back-to-home:hover {
+         background-color: #2F55D4;
+         border-color: #2F55D4;
+        }
+        .icon {
+            text-align: center;
+            color: #2443AC;
+        }
+
+        .icon:hover { 
+            color: #fff; 
+         }       
+     svg {
+         display: inline-block;
+         overflow: hidden   ;
+         vertical-align: middle;
+         height: 30px;
+         width: 30px;
+         line-height: 20px;
+         padding: 6px 2px 0px 7px;
+        } 
+            /*sutvarkyti icon hover/*

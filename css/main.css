@@ -7,18 +7,40 @@ body {
         margin-top: 100px;
         margin-left: calc(50% - 400px);
     }
+    .container_recovery {
+        display: inline-block;
+        width: 1100px;
+        margin-top: 250px;
+        margin-left: calc(50% - 550px);
+    }
         .left {
             display: inline-block;
-            width: 50%;
+            width: 60%;
+            float: left;
+        }
+
+        .left_recovery {
+            display: inline-block;
+            width: 54%;
             float: left;
         }
         .right {
             display: inline-block;
-            width: 40%;
+            width: 54%;
             padding: 20px;
             float: right;
             border: 1px solid #cccccc;
             border-radius: 5px;
+        }
+
+        .right_recovery {
+            display: inline-block;
+            width: 36%;
+            padding: 20px;
+            float: right;
+            border: 1px solid #cccccc;
+            border-radius: 5px;
+            margin-top: 40px;
         }
             .form {
                 display: inline-block;
@@ -35,11 +57,32 @@ body {
                         width: 100%;
                         text-align: center;
                     }
+                    .main-title_r {
+                        display: inline-block;
+                        width: 100%;
+                        text-align: center;
+                        padding: 15px 15px;
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+                    }
+                    .description {
+                        display: inline-block;
+                        width: 100%;
+                        color: rgb(153, 153, 153);
+                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+                    }
                     .label {
                         display: inline-block;
                         width: 100%;
                         font-size: 12px;
                         font-weight: bold;
+                    }
+                    .label_r {
+                        display: inline-block;
+                        width: 100%;
+                        font-size: 14px;
+                        font-weight: bold;
+                        padding-bottom: 10px;
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
                     }
                         .required {
                             color: red;
@@ -50,12 +93,27 @@ body {
                         padding: 10px;
                         padding-left: 50px;
                     }
+                    .input_r {
+                        display: inline-block;
+                        width: 100%;
+                        padding: 10px;
+                        padding-left: 50px;
+                        border: 1px solid #cccccc;
+                        border-radius: 5px;
+                        color: #ccc;
+                    }
                     .form-row > .fa {
                         position: absolute;
                         bottom: 10px;
                         left: 16px;
                         font-size: 20px;
                     }
+                .fa-envelope-o {
+                    position: absolute;
+                    bottom: 8px;
+                    left: 16px;
+                    font-size: 20px;
+                }
                     .checkbox {
 
                     }

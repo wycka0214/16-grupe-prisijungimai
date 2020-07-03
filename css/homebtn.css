@@ -1,6 +1,6 @@
 .top-home {
-width: 36px;
-height: 36px;
+    width: 36px;
+    height: 36px;
 }
     .top-home:hover > svg { 
         stroke: #fff;               

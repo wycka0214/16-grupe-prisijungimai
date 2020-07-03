@@ -2,7 +2,7 @@
 width: 36px;
 height: 36px;
 }
-    .top-home > svg:hover { 
+    .top-home:hover > svg { 
         stroke: #fff;               
         background-color: #2F55D4;
         border-color: #2F55D4;

@@ -1,3 +1,7 @@
+.animation {    
+    transition: 300ms;
+    transition-timing-function: ease;
+}
 body {
     background-color: #ffffff;
 }

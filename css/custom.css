@@ -6,6 +6,13 @@
 }
 .container {
 margin: 10px 0;
+width: 400px;
+float: none;
+}
+.right {
+    width: 100%;
+    float: left;
+
 }
     .half {
         width: 46%;
@@ -16,7 +23,40 @@ margin: 10px 0;
 .checkbox-label {
     font-weight: bold;
 }
-.terms {
-text-decoration: none;
-color: blue;
-}
+    .terms {
+    text-decoration: none;
+    color: blue;
+    }
+
+    @media ( max-width: 1200px ) {
+        .container {
+            width: 800px;
+            margin: 100px calc(50% - 400px) 0;
+        }
+    }
+    
+    @media ( max-width: 900px ) {
+        .container {
+            width: 600px;
+            margin: 50px calc(50% - 300px);
+        }
+            .left {
+                width: 60%;
+                margin: 0 20%;
+            }
+            .right {
+                width: 100%;
+                padding: 20px;
+                margin-bottom: 50px;
+            }
+    }
+    
+    @media ( max-width: 700px ) {
+        .container {
+            width: 100%;
+            margin: 50px 0;
+        }
+            .right {
+                border: none;
+            }
+    }
